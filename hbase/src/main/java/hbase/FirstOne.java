@@ -45,11 +45,11 @@ public class FirstOne {
 		
 		System.out.println("Put Value Completed");
 		
-		Get get = new Get("3".getBytes());
+		Get get = new Get("4".getBytes());
 		
 		Result result = table.get(get);
 		
-		System.out.println("Get Value for Row Key 3:");
+		System.out.println("Get Value for Row Key 4:");
 		
 		System.out.println(Bytes.toString(result.getValue("cf1".getBytes(), "col1".getBytes())));
 		
