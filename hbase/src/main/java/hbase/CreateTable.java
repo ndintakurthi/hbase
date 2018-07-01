@@ -88,6 +88,10 @@ public class CreateTable {
 			System.out.println(Bytes.toString(res.getValue("cf1".getBytes(), "col1".getBytes())));
 		}
 		
+		
+		//admin.disableTable(TableName.valueOf("demo2"));
+		//admin.deleteTable(TableName.valueOf("demo2"));
+		
 	}
 
 }
